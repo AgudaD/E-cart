@@ -30,8 +30,8 @@ const Cart = () => {
       <div className="flex flex-col items-center mt-6 space-y-3">
         <p className="text-center">Subtotal: ${totalAmount}</p>
         <div className="flex items-center gap-3">
-          <button className="border-2 border-black rounded-md px-4 py-1" onClick={() => navigate("/")}>Continue Shopping</button>
-          <button className="border-2 border-black rounded-md px-4 py-1">Checkout</button>
+          <button className="border-2 border-black rounded-md px-4 py-2 hover:bg-gray-300 transition-all duration-300 ease-in" onClick={() => navigate("/")}>Continue Shopping</button>
+          <button className="border-2 border-black rounded-md px-4 py-2 hover:bg-gray-300 transition-all duration-300 ease-in">Checkout</button>
         </div>
       </div> : <p>Empty Cart</p>
     }
