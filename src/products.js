@@ -2,9 +2,9 @@ import pic1 from './assets/1.png'
 import pic2 from './assets/2.png'
 import pic3 from './assets/3.png'
 import pic4 from './assets/4.png'
-import house2 from './assets/house2.jpg'
-import house3 from './assets/house3.jpg'
-import house4 from './assets/house4.jpg'
+// import house2 from './assets/house2.jpg'
+// import house3 from './assets/house3.jpg'
+// import house4 from './assets/house4.jpg'
 import house5 from './assets/house5.jpg'
 import house6 from './assets/house6.jpg'
 import house7 from './assets/house7.jpg'
@@ -33,7 +33,7 @@ export const PRODUCTS = [
         id: 4,
         productName: 'Lorem4',
         price: 400,
-        productImage: house4
+        productImage: pic4
     },
     {
         id: 5,
