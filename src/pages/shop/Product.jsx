@@ -14,8 +14,8 @@ const Product = (props) => {
 
       {/* description */}
       <div className="space-y-2 p-6">
-        <p>{productName}</p>
-        <p>${price}</p>
+        <p className="text-lg font-medium">{productName}</p>
+        <p className="text-base">${price}</p>
       </div>
       <div className="flex justify-end p-4">
         <button className="border border-gray-900 px-4 py-1.5 rounded-md hover:bg-gray-300 transition-all duration-300 ease-in" onClick={() => addToCart(id)}>

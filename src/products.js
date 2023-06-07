@@ -2,13 +2,10 @@ import pic1 from './assets/1.png'
 import pic2 from './assets/2.png'
 import pic3 from './assets/3.png'
 import pic4 from './assets/4.png'
-// import house2 from './assets/house2.jpg'
-// import house3 from './assets/house3.jpg'
-// import house4 from './assets/house4.jpg'
-import house5 from './assets/house5.jpg'
-import house6 from './assets/house6.jpg'
-import house7 from './assets/house7.jpg'
-import house8 from './assets/house8.jpg'
+import pic5 from './assets/5.png'
+import pic6 from './assets/6.webp'
+import pic7 from './assets/7.webp'
+import pic8 from './assets/8.webp'
 
 export const PRODUCTS = [ 
     {
@@ -39,24 +36,24 @@ export const PRODUCTS = [
         id: 5,
         productName: 'Lorem5',
         price: 1000,
-        productImage: house5
+        productImage: pic5
     },
     {
         id: 6,
         productName: 'Lorem6',
         price: 300,
-        productImage: house6
+        productImage: pic6
     },
     {
         id: 7,
         productName: 'Lorem7',
         price: 1100,
-        productImage: house7
+        productImage: pic7
     },
     {
         id: 8,
         productName: 'Lorem8',
         price: 500,
-        productImage: house8
+        productImage: pic8
     },
 ]
