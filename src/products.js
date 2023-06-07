@@ -1,4 +1,7 @@
-import house1 from './assets/house1.jpg'
+import pic1 from './assets/1.png'
+import pic2 from './assets/2.png'
+import pic3 from './assets/3.png'
+import pic4 from './assets/4.png'
 import house2 from './assets/house2.jpg'
 import house3 from './assets/house3.jpg'
 import house4 from './assets/house4.jpg'
@@ -12,19 +15,19 @@ export const PRODUCTS = [
         id: 1,
         productName: 'IPhone',
         price: 1200,
-        productImage: house1
+        productImage: pic1
     },
     {
         id: 2,
         productName: 'Lorem2',
         price: 500,
-        productImage: house2
+        productImage: pic2
     },
     {
         id: 3,
         productName: 'Lorem3',
         price: 200,
-        productImage: house3
+        productImage: pic3
     },
     {
         id: 4,
