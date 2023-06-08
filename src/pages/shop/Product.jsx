@@ -8,7 +8,7 @@ const Product = (props) => {
   const cartItemAmount = cartItems[id]
 
   return (
-    <div className="bg-white drop-shadow-sm shadow-md rounded-md ">
+    <div className="bg-white drop-shadow-md shadow-lg rounded-md">
       {/* product image */}
       <img src={productImage} alt="" className=" w-80 h-72 rounded-t-md" />
 
@@ -19,7 +19,7 @@ const Product = (props) => {
       </div>
       <div className="flex justify-end p-4">
         <button className="border border-gray-900 px-4 py-1.5 rounded-md hover:bg-gray-300 transition-all duration-300 ease-in" onClick={() => addToCart(id)}>
-          View {cartItemAmount > 0 && <>(
+          Add to cart {cartItemAmount > 0 && <>(
             {cartItemAmount}
           ) </>}
         </button>
