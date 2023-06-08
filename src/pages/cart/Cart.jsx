@@ -27,7 +27,7 @@ const Cart = () => {
 
 
     {totalAmount > 0 ? 
-      <div className="flex flex-col items-center mt-6 space-y-3">
+      <div className="flex flex-col items-center mt-6 space-y-4">
         <p className="text-center">Subtotal: ${totalAmount}</p>
         <div className="flex items-center gap-3">
           <button className="border-2 border-black rounded-md px-4 py-2 hover:bg-gray-300 transition-all duration-300 ease-in" onClick={() => navigate("/")}>Continue Shopping</button>

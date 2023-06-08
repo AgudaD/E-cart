@@ -18,7 +18,7 @@ const Product = (props) => {
         <p className="text-base">${price}</p>
       </div>
       <div className="flex justify-end p-4">
-        <button className="border border-gray-900 px-4 py-1.5 rounded-md hover:bg-gray-300 transition-all duration-300 ease-in" onClick={() => addToCart(id)}>
+        <button className="border border-[#A4036F] px-4 py-1.5 rounded-md hover:bg-gray-300 transition-all duration-300 ease-in" onClick={() => addToCart(id)}>
           Add to cart {cartItemAmount > 0 && <>(
             {cartItemAmount}
           ) </>}

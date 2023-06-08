@@ -10,7 +10,7 @@ const CartItem = (props) => {
     <div className="bg-white drop-shadow-md shadow-lg p-8 rounded-md space-y-4">
       <img src={productImage} alt="" className="w-48 h-auto" />
 
-      <div className="space-y-2 ">
+      <div className="space-y-3">
         <p>{productName}</p>
       </div>
       <p>${price}</p>

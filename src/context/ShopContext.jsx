@@ -43,7 +43,8 @@ const ShopContextProvider = (props) => {
 
   console.log(cartItems)
 
-  return <ShopContext.Provider value={contextValue}>{props.children}</ShopContext.Provider>;
+  return <ShopContext.Provider 
+  value={contextValue}>{props.children}</ShopContext.Provider>;
 };
 
 export default ShopContextProvider;
