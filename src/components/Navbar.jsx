@@ -4,7 +4,7 @@ import logo from '../assets/FemabLogo.svg'
 
 const Navbar = () => {
   return (
-    <div className="bg-[#A4036F] text-white flex justify-between items-center p-4 font-helvetica">
+    <div className="bg-[#D73D45] text-white flex justify-between items-center px-4 py-8">
       <div className="flex items-center gap-3">
         <Link to="/" className="text-3xl">Femab</Link>
         {/* <img src={logo} alt="" className="w-16" /> */}
