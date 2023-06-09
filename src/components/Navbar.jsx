@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <div className="bg-[#A4036F] text-white flex justify-between items-center p-4 font-helvetica">
       <div className="flex items-center gap-3">
-        <p className="text-3xl">Femab</p>
-        <img src={logo} alt="" className="w-16" />
+        <Link to="/" className="text-3xl">Femab</Link>
+        {/* <img src={logo} alt="" className="w-16" /> */}
       </div>
       <div className="flex items-center gap-3">
         <Link to="/">Shop</Link>
