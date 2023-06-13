@@ -3,15 +3,16 @@ import Homepage from "./pages/shop/Homepage";
 import Cart from "./pages/cart/Cart";
 import Navbar from "./components/Navbar";
 import ShopContextProvider from "./context/ShopContext";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div>
       <ShopContextProvider>
         <Router>
-          <Navbar />
           <Routes>
-            <Route exact path="/" element={<Homepage />} />
+            <Route exact path="/" element={<Home />} />
+            <Route path="/homepage" element={<Homepage />} />
             <Route path="/cart" element={<Cart />} />
           </Routes>
         </Router>

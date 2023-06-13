@@ -9,6 +9,9 @@ export default {
       fontFamily: {
         'helvetica': ['Helvetica', 'sans serif'] 
       },
+      backgroundImage: {
+        'chairset': "url('/src/assets/chair1.jpg')"
+      }
     },
   },
   plugins: [],
